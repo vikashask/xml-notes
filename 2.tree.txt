@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>         // root element of the document
+    <book category="cooking">   // <book> elements have 4 child elements: <title>, <author>, <year>, <price>.
+        <title lang="en">Everyday Italian</title>
+        <author>Giada De Laurentiis</author>
+        <year>2005</year>
+        <price>30.00</price>
+    </book>
+    <book category="children">
+        <title lang="en">Harry Potter</title>
+        <author>J K. Rowling</author>
+        <year>2005</year>
+        <price>29.99</price>
+    </book>
+    <book category="web">
+        <title lang="en">Learning XML</title>
+        <author>Erik T. Ray</author>
+        <year>2003</year>
+        <price>39.95</price>
+    </book>
+</bookstore>
+
+XML Tree Structure
+
+<root>
+    <child>
+        <subchild>.....</subchild>
+    </child>
+</root>
+The terms parent, child, and sibling are used to describe the relationships between elements.
+Parents have children. Children have parents. Siblings are children on the same level (brothers and sisters).
+
